@@ -1,7 +1,14 @@
-body {
+html {
+  background-color: lightcyan;
   text-align: center;
 }
 
-.nav a {
-  margin: 0px 25px;
+body {
+  background-color: beige;
+  border: 3px solid pink;
+  width: 850px;
+  margin: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 50px;
 }
