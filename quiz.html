@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Multi-Page Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
 
-<head>
-  <title>Multi-Page Demo</title>
-  <link rel="stylesheet" href="style.css"
-</head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <p class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a> 
+      <a href="quiz.html">Quiz</a>
+    </p>
 
-<body>
-  <!-- NAVIGATION BAR -->
-  <p class="nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="quiz.html">Quiz</a>
-  </p>
-  
-  <!-- PAGE TITLE & CONTENT -->
-  <h1>QUIZ PAGE</h1>
-  <p>This is the quiz page</p>
-</body>
+    <!-- PAGE TITLE & CONTENT -->
+    <h1>Here is a small quiz about volleyball!</h1>
+    <p>
+      Question 1: What year did volleyball become an official olympic sport?
+      <input id="question1-in" type="number" />
+    </p>
+    <div id="question1-out"></div>
+
+    <hr />
+    <p>
+      Question 2: Which country holds the most medals for winning the Summer
+      volleyball Olympics?
+      <input id="question2-in" type="text" />
+    </p>
+    <div id="question2-out"></div>
+    <hr />
+    <p>
+      Question 3: What year did volleyball officialy become a Summer Olympics
+      sport? <input id="question3-in" type="number" />
+    </p>
+    <div id="question3-out"></div>
+    <hr />
+    <p>
+      Question 4: What is the maximum number of people that can play on a
+      Volleyball team? <input id="question4-in" type="number" />
+    </p>
+    <div id="question4-out"></div>
+    <hr />
+    <p><button id="btn">Check Answers</button></p>
+    <p id="output">---</p>
+  </body>
 </html>
